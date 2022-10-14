@@ -7,16 +7,18 @@
 */
 int main(void)
 {
-	char ch = 'a';
+	int n;
 
-	while (ch <= 'z')
+	for (n = 48; n < 58; n++)
 	{
-		if (ch != 'e' && ch != 'q')
+		putchar(n);
+		if (n != 57)
 		{
-	putchar(ch);												
+			putchar(',');
+			putchar(' ');
 		}
-		ch++;
 	}
 	putchar('\n');
 	return (0);
 }
+
