@@ -7,16 +7,15 @@
 */
 int main(void)
 {
-	int n;
+	char ch = 'a';
 
-	for (n = 48; n < 58; n++)
+	while (ch <= 'z')
 	{
-		putchar(n);
-		if (n != 57)
+		if (ch != 'e' && ch != 'q')
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(ch);
 		}
+		ch++;
 	}
 	putchar('\n');
 	return (0);
