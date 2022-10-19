@@ -4,9 +4,15 @@
 /**
 * print_remaining_days - takes a date and prints how many days are
 * left in the year, taking leap years into account
+<<<<<<< HEAD
 * month: month in number format
 * day: day of month
 * year: year
+=======
+* @month: month in number format
+* @day: day of month
+* @year: year
+>>>>>>> d1e6bf5c385b731e7136c2cdfcff6a3ade84a17b
 * Return: void
 */
 
