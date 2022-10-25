@@ -4,14 +4,14 @@
 /**
  * print_array - prints n element of an array of integers
  * @a: int to be checked
- * @n: int to be checked 
- */
+ * @n: int to be checked
+*/
 
 void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0; i < n; x++)
+	for (i = 0; i < n; i++)
 	{
 		if (i != n - 1)
 			printf("%d, ", a[i]);

@@ -3,6 +3,7 @@
  * _strcpy - copy the string pointed to by src to dest
  * @dest: parameter to be checked
  * @src: parameter to be checked
+ * Return: returns the pointer to dest
 */
 
 char *_strcpy(char *dest, char *src)
