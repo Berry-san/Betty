@@ -6,7 +6,7 @@
  * program 101-crackme
 */
 
-nt main(void)
+int main(void)
 {
 	int i, j, k, s;
 	char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
