@@ -6,6 +6,7 @@
  * @n: function that copies bytes memory area
  * @src: bytes from memory area
  * @dest: where bytes is copied to
+ * Return: dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
