@@ -27,7 +27,7 @@ int pal_checker(int l, int r, char *p)
 	else if (p[l] != p[r])
 		return (0);
 	else
-		return (check_palindrome(l + 1, r - 1, p));
+		return (pal_checker(l + 1, r - 1, p));
 }
 /**
  * is_palindrome - states if a string is a palindrome
