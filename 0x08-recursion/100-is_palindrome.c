@@ -20,7 +20,7 @@ int _strlen_recursion(char *s)
  *
  * Return: 1 if palindrome else return 0
  */
-int check_palindrome(int l, int r, char *p)
+int pal_checker(int l, int r, char *p)
 {
 	if (l >= r)
 		return (1);

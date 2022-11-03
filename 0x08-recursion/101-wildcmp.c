@@ -23,7 +23,7 @@ int str_checker(char *s1, char *s2, int i, int j)
 }
 
 /**
- * wildcard - checks for the wildcards
+ * wildcmp - checks for the wildcards
  * @s3: base address for string.
  * @s4: base address for string.
  *
