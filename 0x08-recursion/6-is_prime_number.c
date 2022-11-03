@@ -3,7 +3,7 @@
  * prime_checker - checks to see if number is prime
  * @a:integer
  * @b: possible prime number
- * 
+ *
  * Return: 1 if prime, else return 0
  */
 
