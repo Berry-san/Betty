@@ -20,14 +20,15 @@ int _strlen_recursion(char *s)
  *
  * Return: 1 if palindrome else return 0
  */
-int pal_checker(int l, int r, char *p)
+int pal_checker(char *s, int i, int j)
 {
-	if (l >= r)
-		return (1);
-	else if (p[l] != p[r])
-		return (0);
+	if (s[i] == s[j])
+		if (i > j / 2)
+			return (1);
+		else
+			return (pal_checker(s, i + 1, j - 1));
 	else
-		return (pal_checker(l + 1, r - 1, p));
+		return (0);
 }
 /**
  * is_palindrome - states if a string is a palindrome
