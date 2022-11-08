@@ -9,7 +9,7 @@ void create_word(char **, char *, int, int, int);
  * @str: the string
  *
  * Return: returns a pointer to an array of strings (words)
- *  */
+ */
 char **strtow(char *str)
 {
 	int i, flag, len;
@@ -48,7 +48,7 @@ char **strtow(char *str)
  * util - a util function for fetching words into an array
  * @words: the strings array
  * @str: the string
- *  */
+ */
 void util(char **words, char *str)
 {
 	int i, j, start, flag;
@@ -83,7 +83,7 @@ void util(char **words, char *str)
  * @start: the starting index of the word
  * @end: the stopping index of the word
  * @index: the index of the array to insert the word
- *  */
+ */
 void create_word(char **words, char *str, int start, int end, int index)
 {
 	int i, j;

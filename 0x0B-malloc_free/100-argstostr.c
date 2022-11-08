@@ -7,7 +7,7 @@
  * @av: arguments vector
  *
  * Return: a pointer to a new string, or NULL if it fails
- *  */
+ */
 char *argstostr(int ac, char **av)
 {
 	char *str, *s;
