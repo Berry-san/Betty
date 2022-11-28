@@ -6,7 +6,7 @@
  * @head: a double pointer of lists
  *
  * Return: void
- * */
+ */
 
 void free_listint2(listint_t **head)
 {
